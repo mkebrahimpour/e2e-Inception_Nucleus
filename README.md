@@ -1,6 +1,11 @@
 # End-to-End Auditory Object Recognition via Inception Nucleus
 Keras (Tensorflow) implementation of the paper: 
 
+<div align="center">
+  <b>Inception Block</b><br>
+  <img src="figures/inception.png" width="600"><br><br>
+</div>
+
 ## Notes:
 - Proposing novel inception blocks for analyzing raw wave audio files. 
 - We noticed the early layers are learning wavelet-like filters.
