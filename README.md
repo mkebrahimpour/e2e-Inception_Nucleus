@@ -24,9 +24,9 @@ cd e2e-Inception_Nucleus
 sudo pip install -r requirements.txt
 ./run_all.sh # will run Inception Nucleus
 ```
-## First layer filters:
+## Representatoins Analysis
 <div align="center">
-  <b></b><br>
+  <b>First layer representatoins:</b><br>
   <img src="figures/filter0.png" width="200">
   <img src="figures/filter1.png" width="200">
   <img src="figures/filter2.png" width="200"><br>
@@ -36,9 +36,10 @@ sudo pip install -r requirements.txt
 </div>
 
 
+
 <div align="center">
-  <b>M5 model - best accuracy: 0.743, trainable params = 559,114</b><br>
-  <img src="assets/m5.png" width="600"><br><br>
+  <b> t-SNE on the last convolutional layer</b><br>
+  <img src="figures/tsne2.png" width="400"><br><br>
 </div>
 
 <div align="center">
