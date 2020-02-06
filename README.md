@@ -39,7 +39,7 @@ sudo pip install -r requirements.txt
 
 <div align="center">
   <b> t-SNE on the last convolutional layer</b><br>
-  <img src="figures/tsne2.png" width="400"><br><br>
+  <img src="figures/tsne2.png" width="600"><br><br>
 </div>
 
 <div align="center">
