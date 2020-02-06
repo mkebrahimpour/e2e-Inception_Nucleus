@@ -1,32 +1,28 @@
-# Very Deep Convolutional Networks For Raw Waveforms
-Keras (Tensorflow) implementation of the paper: https://arxiv.org/pdf/1610.00087.pdf
+# End-to-End Auditory Object Recognition via Inception Nucleus
+Keras (Tensorflow) implementation of the paper: 
 
 ## Notes:
-- Going really deep does not seem to help much on this dataset. We clearly overfit very easily. Adding more regularization might help. I haven't tried to use the FC layers (though it has been implemented).
-- We use the `fold10` folder for the **testing set** and the remaining for the **training set**.
-- Models implemented:
-```
-[x] M3
-[x] M5
-[x] M11
-[x] M18
-[x] M34 (ResNet)
-```
+- Proposing novel inception blocks for analyzing raw wave audio files. 
+- We noticed the early layers are learning wavelet-like filters.
+- Our analysis revealed that the network is learning semantically meaningful representations in the last layer.
+- Using Global Average Pooling is very helpful in avoiding overfitting and reducing the number of parameters.
+
 
 ## How to re-run the experiments?
 
 Dataset can be downloaded here: http://urbansounddataset.weebly.com/urbansound8k.html
+After downloading the dataset you may extract it in "ds" folder.
 
 ```bash
-git clone https://github.com/philipperemy/very-deep-convnets-raw-waveforms.git
-cd very-deep-convnets-raw-waveforms
-sudo pip3 install -r requirements.txt
-./run_all.sh # will run M3, M5, M11, M18 and M34
+git clone https://github.com/mkebrahimpour/e2e-Inception_Nucleus.git
+cd e2e-Inception_Nucleus
+sudo pip install -r requirements.txt
+./run_all.sh # will run Inception Nucleus
 ```
-
+## First layer filters:
 <div align="center">
-  <b>M3 model - best accuracy: 0.673, trainable params = 221,194</b><br>
-  <img src="assets/m3.png" width="600"><br><br>
+  <b></b><br>
+  <img src="figures/filter0.png" width="600"><br><br>
 </div>
 
 
