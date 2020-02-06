@@ -22,7 +22,9 @@ sudo pip install -r requirements.txt
 ## First layer filters:
 <div align="center">
   <b></b><br>
-  <img src="figures/filter0.png" width="600"><br><br>
+  <img src="figures/filter0.png" width="100"><br><br>
+  <img src="figures/filter0.png" width="100"><br><br>
+  <img src="figures/filter0.png" width="100"><br><br>
 </div>
 
 
