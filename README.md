@@ -10,8 +10,8 @@ Keras (Tensorflow) implementation of the paper:
 
 ## How to re-run the experiments?
 
-Dataset can be downloaded here: http://urbansounddataset.weebly.com/urbansound8k.html
-After downloading the dataset you may extract it in "ds" folder.
+- Dataset can be downloaded here: http://urbansounddataset.weebly.com/urbansound8k.html
+- After downloading the dataset you may extract it in "ds" folder.
 
 ```bash
 git clone https://github.com/mkebrahimpour/e2e-Inception_Nucleus.git
