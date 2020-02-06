@@ -3,7 +3,7 @@ Keras (Tensorflow) implementation of the paper:
 
 <div align="center">
   <b>Inception Block</b><br>
-  <img src="figures/inception.png" width="600"><br><br>
+  <img src="figures/inception.png" width="500"><br><br>
 </div>
 
 ## Notes:
