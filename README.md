@@ -43,17 +43,8 @@ sudo pip install -r requirements.txt
 </div>
 
 <div align="center">
-  <b>M11 model - best accuracy: 0.752, trainable params = 1,786,442</b><br>
-  <img src="assets/m11.png" width="600"><br><br>
-</div>
-
-<div align="center">
-  <b>M18 model - best accuracy: 0.710, trainable params = 3,683,786</b><br>
-  <img src="assets/m18.png" width="600"><br><br>
-</div>
-
-<div align="center">
-  <b>M34 model - best accuracy: 0.725, trainable params = 3,984,154</b><br>
-  <img src="assets/m34.png" width="600"><br><br>
+  <b>Inception Nucleus model - best accuracy: 88.4, trainable params = 289K</b><br>
+  <img src="figures/icassp_loss.png" width="400">
+   <img src="figures/icassp_accuracy.png" width="400">
 </div>
 
